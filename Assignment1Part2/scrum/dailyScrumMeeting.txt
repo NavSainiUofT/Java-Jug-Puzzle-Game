@@ -1,0 +1,83 @@
+# Fill in, commit and push each day.
+
+Oct 6, 2016
+	Yesterday : 
+		I completed the initial JugPuzzle Model classes
+	
+	Today     : Plan to Begin organizing my user stories and fully understand
+		        what this GUI is suppose to do. Begin familiarizing myself with
+		        useful tools that will allow me to achieve the product
+	
+	Obstacles : Make sure the the most important user stories are covered
+			    missing an important one could pose an issue later on
+
+Oct 7, 2016
+	Yesterday : Organized user stories and declared which one will be done in which 
+				sprint. Began to look at the GUI layout and strategies of implementation
+	Today     : Review Learned material to throughly understand how observers
+				and observed works as well as GUI 
+	Obstacles : Figuring out the method of implimentation that will provide the
+				simplest code.
+Oct 8, 2016
+	Yesterday : Prepared to begin implementing the observable and observer classes 
+				and organized the layout of the MVC
+	Today     : Begin initializing the GUI so it would open an empty GUI window
+				also begin to have the JLabels of the jug capacities show
+	Obstacles : Ensuring that the obersever and observed classes were implemented correctly
+	
+Oct 9, 2016
+	Yesterday : Worked on getting the GUI application to open and played with the JLabels
+	Today     : Continue to work on the JLabels that would display the jugs and their 
+				capacities
+	Obstacles : having one view, showing all three jugs caused a raod block and I still
+				have not over come this obsticle
+	
+Oct 10, 2016
+	Yesterday : Completed the GUI with no functionally but almost made an error by
+				converting the text based controller to the gui one. I took the
+				text controller from A1 and made the new class appropriately
+	Today     : I plan to add action listeners to the buttons ultimately adding
+				basic functionality to the program.  
+	Obstacles : Having a hard time grasping the concept of action listener so implementing correctly
+				will take more time to understand
+	
+Oct 11, 2016
+	Yesterday : Attempted to complete the ability to make a move but had little success with the buttonaction listeners
+	Today     : I plan to complete the ability to make moves and solve the issue i am having with the button action listeners
+	Obstacles : Keeping track of which button was pressed first and which was pressed second.
+	
+Oct 12, 2016
+	Yesterday :
+	Today     :DAY OFF
+	Obstacles :
+	
+Oct 13, 2016
+	Yesterday :
+	Today     :DAY OFF
+	Obstacles :
+	
+Oct 14, 2016
+	Yesterday :
+	Today     :I plan to get the new game button working and potential get the game to stop once won
+	Obstacles :working with one action listener
+	
+Oct 15, 2016
+	Yesterday : I made some changing adding another view and implemented the JProgressBar built in to 
+				add a more appealing interface. I had to make a second view because I still wanted the
+				moves to display using a JLabel. I also made it so it disables the game when you win and
+				pops up with a message letting you know that you have won and in how many moves.
+				If you continue to try to play than it will keep popping up unless you press new game
+	Today     : Commit and push by tonight at midnight for ontime submission. I plan to add a help button and 
+				get the quit button working.
+	Obstacles : Separating the action listeners without disrupting the code.
+
+Oct 16, 2016
+	Yesterday : Added a help button as well as got the quit button to work and cleaned up code and whitespace.
+				I separated my action listeners and renamed some classes and variables to clean it up.
+	Today     : 
+	Obstacles :
+	
+Oct 17, 2016
+	Yesterday :
+	Today     : Commit and push by tonight at midnight for late submission.
+	Obstacles :

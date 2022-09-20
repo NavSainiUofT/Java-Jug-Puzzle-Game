@@ -1,0 +1,126 @@
+# Copy User Stories from the ProductBacklog 
+# to the appropriate Sprint below, after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 October 6, 2016
+# Sprint 1 Backlog UserStories go below
+--------------------------------------------------------------------------
+NAME     : See GUI
+PRIORITY : #1 this is the first task that needs to be completed as
+		   as most other Stories rely on it
+ESTIMATE : 8 hours
+AS A     : player
+I WANT   : to see a simple, initial GUI for game play (for example, the
+           one outlined in the assignment) the GUI is non-functional
+SO THAT  : I may familiarize myself with the layout of the game and 
+		   understand how to play
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     : Quit Anytime
+PRIORITY : #2 The player should be able to exit the application and quit anytime
+		   after the GUI was initiated
+ESTIMATE : 1 hour
+AS A     : player
+I WANT   : to be able to quit the game anytime.
+SO THAT  : I don't get stuck on the game window
+--------------------------------------------------------------------------
+
+COMPLETED ^^^
+
+# Sprint 2 October 9, 2016
+# Sprint 2 Backlog UserStories go below
+--------------------------------------------------------------------------
+NAME     : Make Move
+PRIORITY : #3 Once the GUI is up and running, now we can add functionality
+ESTIMATE : 4 hours
+AS A     : player
+I WANT   : to be able to make a game move. That is, choose the jug that I 
+           spill from (press button). Then choose the jug I spill into 
+           (press button). Then have the 
+           move made on the JugPuzzle. Note: I don't need to see the 
+           outcome of the spill yet. That is in another user story. 
+SO THAT  : I can play the game
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     : See State of Jugs 
+PRIORITY : #4 Now that the player can make moves, they need to see the moves
+		   they made so they do not have to keep track in their head
+ESTIMATE : 4 hours
+AS A     : player
+I WANT   : to graphically/visually see the current state of the jugs 
+           in the jug puzzle. 
+           Hint: This is another view (=observer), but this time 
+           it could be a view on the Jug. 
+SO THAT  : I may see the reflection of the move I just made on the interface
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     : See number of moves
+PRIORITY : #5 now that the user can see the moves they made, they can keep
+		   track of how may moves without remembering it
+ESTIMATE : 1 hour
+AS A     : player
+I WANT   : see the number of moves I have made in my attempt to 
+           solve the puzzle. 
+           Hint: This is another view (=Observer) on the JugPuzzle. 
+SO THAT  : I can see my progress in solving the puzzle. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     : Won alert
+PRIORITY : #6 now the user can see the moves and number of moves, they can
+		   see when they won
+ESTIMATE : 2 hours
+AS A     : player
+I WANT   : to know when I have won the game. 
+SO THAT  : I can know when to stop playing if i want to win
+--------------------------------------------------------------------------
+
+COMPLETED ^^
+# Sprint 3 October 12, 2016
+# Sprint 3 Backlog UserStories go below
+--------------------------------------------------------------------------
+NAME     : Won Halts Game
+PRIORITY : #7 So that the user does not continue playing after they won
+		   the game will not allow the user to continue
+ESTIMATE : 4 hours
+AS A     : player
+I WANT   : Not have the ability to make another move once 
+           the puzzle is solved. 
+SO THAT  : I can't accidentally corrupt my score by making a move 
+           after solving the puzzle. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     : New Game Anytime
+PRIORITY : #8 Now the user may restart if they make a mistake
+ESTIMATE : 4 hours
+AS A     : player
+I WANT   : to be given the choice to start a new game at any 
+           time during the game.
+SO THAT  : if i know i made an error i may restart
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     : New Game when Won
+PRIORITY : #9
+ESTIMATE : 2 hours
+AS A     : player
+I WANT   : to be given the choice to play a new game or to quit, once the 
+           game is over. 
+SO THAT  : I do not have to close and reopen the application to play 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     :Best number of moves since starting GUI
+PRIORITY :#10 Now we may start to add convenience features
+ESTIMATE : 1 hour
+AS A     : player
+I WANT   : Challenge myself with previous scores
+SO THAT  : I may enjoy the game more
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+NAME     : Help Button
+PRIORITY : #11
+ESTIMATE : 1 hour
+AS A     : player
+I WANT   : to have access to instructions on how to play the game
+SO THAT  : I may understand how to play if I do not
+--------------------------------------------------------------------------
+
+COMPLETED ^^^
